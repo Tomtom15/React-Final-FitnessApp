@@ -1,0 +1,361 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.demo.fitnessapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\fc43d73c4c1931846dd0e7285cac9a6e\jetified-flipper-0.33.1\AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.33.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\fc43d73c4c1931846dd0e7285cac9a6e\jetified-flipper-0.33.1\AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[:react-native-firebase_auth] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+14-->[:react-native-firebase_auth] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[:react-native-firebase_auth] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+15-->[:react-native-firebase_auth] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->[:react-native-maps] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+16-->[:react-native-maps] C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:22-78
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+20        android:required="true" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:26:22-79
+22    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+22-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:26:5-110
+22-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:26:22-107
+23
+24    <application
+24-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:6:5-52:19
+25        android:name="com.fitnessapp.MainApplication"
+25-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:7:7-38
+26        android:allowBackup="false"
+26-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:11:7-34
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\51c60a74c89e63786feb7a72e94c376c\core-1.1.0\AndroidManifest.xml:24:18-86
+28        android:debuggable="true"
+29        android:icon="@mipmap/ic_launcher"
+29-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:9:7-41
+30        android:label="@string/app_name"
+30-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:8:7-39
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:10:7-52
+32        android:supportsRtl="true"
+32-->[com.facebook.android:facebook-android-sdk:4.42.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\3de415b185e5d02763d87ae1af641319\facebook-android-sdk-4.42.0\AndroidManifest.xml:28:18-44
+33        android:theme="@style/AppTheme"
+33-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:12:7-38
+34        android:usesCleartextTraffic="true" >
+34-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\debug\AndroidManifest.xml:7:18-53
+35        <activity
+35-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:13:7-23:18
+36            android:name="com.fitnessapp.MainActivity"
+36-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:14:9-37
+37            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+37-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:16:9-86
+38            android:label="@string/app_name"
+38-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:15:9-41
+39            android:launchMode="singleTask"
+39-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:17:9-40
+40            android:windowSoftInputMode="adjustResize" >
+40-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:18:9-51
+41            <intent-filter>
+41-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:19:9-22:25
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:20:13-65
+42-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:20:21-62
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:21:13-73
+44-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:21:23-70
+45            </intent-filter>
+46        </activity>
+47        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+47-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:24:7-84
+47-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:24:17-81
+48
+49        <meta-data
+49-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:25:9-107
+50            android:name="com.facebook.sdk.ApplicationId"
+50-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:25:20-65
+51            android:value="@string/facebook_app_id" />
+51-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:25:66-105
+52        <meta-data
+52-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:26:9-28:37
+53            android:name="firebase_messaging_auto_init_enabled"
+53-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:27:13-64
+54            android:value="false" />
+54-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:28:13-34
+55        <meta-data
+55-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:29:9-31:37
+56            android:name="firebase_analytics_collection_enabled"
+56-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:30:13-65
+57            android:value="false" />
+57-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:31:13-34
+58        <meta-data
+58-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:32:9-34:53
+59            android:name="com.google.android.geo.API_KEY"
+59-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:33:13-58
+60            android:value="@string/MY_MAP_API_KEY" />
+60-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:34:13-51
+61
+62        <activity
+62-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:36:9-39:48
+63            android:name="com.facebook.FacebookActivity"
+63-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:36:19-63
+64            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+64-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:37:13-113
+65            android:label="@string/app_name"
+65-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:39:13-45
+66            android:theme="@style/com_facebook_activity_theme" />
+66-->[com.facebook.android:facebook-common:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ca1b28fdad370ed7e36f93fa8f456397\facebook-common-7.1.0\AndroidManifest.xml:33:13-63
+67        <activity
+67-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:41:9-50:20
+68            android:name="com.facebook.CustomTabActivity"
+68-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:42:13-58
+69            android:exported="true" >
+69-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:43:13-36
+70            <intent-filter>
+70-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:44:13-49:29
+71                <action android:name="android.intent.action.VIEW" />
+71-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:45:17-69
+71-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:45:25-66
+72
+73                <category android:name="android.intent.category.DEFAULT" />
+73-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:46:17-76
+73-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:46:27-73
+74                <category android:name="android.intent.category.BROWSABLE" />
+74-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:47:17-78
+74-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:47:27-75
+75
+76                <data android:scheme="@string/fb_login_protocol_scheme" />
+76-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:48:17-75
+76-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:48:23-72
+77            </intent-filter>
+78            <intent-filter>
+78-->[com.facebook.android:facebook-common:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ca1b28fdad370ed7e36f93fa8f456397\facebook-common-7.1.0\AndroidManifest.xml:39:13-48:29
+79                <action android:name="android.intent.action.VIEW" />
+79-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:45:17-69
+79-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:45:25-66
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:46:17-76
+81-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:46:27-73
+82                <category android:name="android.intent.category.BROWSABLE" />
+82-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:47:17-78
+82-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:47:27-75
+83
+84                <data
+84-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:48:17-75
+85                    android:host="cct.com.demo.fitnessapp"
+86                    android:scheme="fbconnect" />
+86-->C:\Users\UMAIR\Documents\native\Final Apps\mobile-app-1\android\app\src\main\AndroidManifest.xml:48:23-72
+87            </intent-filter>
+88        </activity>
+89        <activity android:name="com.facebook.CustomTabMainActivity" />
+89-->[com.facebook.android:facebook-common:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ca1b28fdad370ed7e36f93fa8f456397\facebook-common-7.1.0\AndroidManifest.xml:34:9-71
+89-->[com.facebook.android:facebook-common:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ca1b28fdad370ed7e36f93fa8f456397\facebook-common-7.1.0\AndroidManifest.xml:34:19-68
+90        <!--
+91         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+92         with the application context. This config is merged in with the host app's manifest,
+93         but there can only be one provider with the same authority activated at any given
+94         point; so if the end user has two or more different apps that use Facebook SDK, only the
+95         first one will be able to use the provider. To work around this problem, we use the
+96         following placeholder in the authority to identify each host application as if it was
+97         a completely different provider.
+98        -->
+99        <provider
+99-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:39:9-42:40
+100            android:name="com.facebook.internal.FacebookInitProvider"
+100-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:40:13-70
+101            android:authorities="com.demo.fitnessapp.FacebookInitProvider"
+101-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:41:13-72
+102            android:exported="false" />
+102-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:42:13-37
+103
+104        <receiver
+104-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:44:9-50:20
+105            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+105-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:45:13-86
+106            android:exported="false" >
+106-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:46:13-37
+107            <intent-filter>
+107-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:47:13-49:29
+108                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+108-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:17-95
+108-->[com.facebook.android:facebook-core:7.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0cf60079fbd4fdd826da02a2d7e65137\jetified-facebook-core-7.1.0\AndroidManifest.xml:48:25-92
+109            </intent-filter>
+110        </receiver>
+111
+112        <activity
+112-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:23:9-27:75
+113            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+113-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:24:13-93
+114            android:excludeFromRecents="true"
+114-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:25:13-46
+115            android:exported="false"
+115-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:26:13-37
+116            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+116-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:27:13-72
+117        <!--
+118            Service handling Google Sign-In user revocation. For apps that do not integrate with
+119            Google Sign-In, this service will never be started.
+120        -->
+121        <service
+121-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:33:9-36:110
+122            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+122-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:34:13-89
+123            android:exported="true"
+123-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:35:13-36
+124            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" /> <!-- Needs to be explicitly declared on P+ -->
+124-->[com.google.android.gms:play-services-auth:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\7e966e6b0545facb0f4b000449a25223\play-services-auth-17.0.0\AndroidManifest.xml:36:13-107
+125        <uses-library
+125-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+126            android:name="org.apache.http.legacy"
+126-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+127            android:required="false" />
+127-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\39a12f425bf439d5981924b84731cc02\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+128
+129        <activity
+129-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:24:9-31:50
+130            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+130-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:25:13-85
+131            android:excludeFromRecents="true"
+131-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:26:13-46
+132            android:exported="true"
+132-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:27:13-36
+133            android:launchMode="singleTask"
+133-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:28:13-44
+134            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+134-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:29:13-102
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:30:13-72
+136
+137        <service
+137-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:33:9-39:19
+138            android:name="com.google.firebase.components.ComponentDiscoveryService"
+138-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:34:13-84
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+140            android:exported="false" >
+140-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:35:13-37
+141            <meta-data
+141-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:36:13-38:85
+142                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+142-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:37:17-109
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.firebase:firebase-auth:19.3.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\852d194e863fd0e60c724f3cbdf438f9\firebase-auth-19.3.1\AndroidManifest.xml:38:17-82
+144            <meta-data
+144-->[com.google.firebase:firebase-database:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ad1243eb00ea4ba83a91eee1a948761d\firebase-database-19.3.0\AndroidManifest.xml:32:13-34:85
+145                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+145-->[com.google.firebase:firebase-database:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ad1243eb00ea4ba83a91eee1a948761d\firebase-database-19.3.0\AndroidManifest.xml:33:17-109
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[com.google.firebase:firebase-database:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\ad1243eb00ea4ba83a91eee1a948761d\firebase-database-19.3.0\AndroidManifest.xml:34:17-82
+147            <meta-data
+147-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:30:13-32:85
+148                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+148-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:31:17-139
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.android.gms:play-services-measurement-api:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a51806d0e59ff9433870568f30944c6a\play-services-measurement-api-17.4.1\AndroidManifest.xml:32:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:32:13-34:85
+151                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+151-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:33:17-96
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:34:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\24c742431253f4b72d438133116b1a60\firebase-installations-16.2.1\AndroidManifest.xml:17:13-19:85
+154                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+154-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\24c742431253f4b72d438133116b1a60\firebase-installations-16.2.1\AndroidManifest.xml:18:17-127
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-installations:16.2.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\24c742431253f4b72d438133116b1a60\firebase-installations-16.2.1\AndroidManifest.xml:19:17-82
+156        </service>
+157
+158        <receiver
+158-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:37:9-44:20
+159            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+159-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:38:13-78
+160            android:exported="true"
+160-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:39:13-36
+161            android:permission="com.google.android.c2dm.permission.SEND" >
+161-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:40:13-73
+162            <intent-filter>
+162-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:41:13-43:29
+163                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+163-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:42:17-81
+163-->[com.google.firebase:firebase-iid:20.1.5] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\0e74e9fd5fc5b42223e01e8c833de65c\firebase-iid-20.1.5\AndroidManifest.xml:42:25-78
+164            </intent-filter>
+165        </receiver>
+166
+167        <provider
+167-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+168            android:name="com.google.firebase.provider.FirebaseInitProvider"
+168-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+169            android:authorities="com.demo.fitnessapp.firebaseinitprovider"
+169-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+170            android:exported="false"
+170-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+171            android:initOrder="100" />
+171-->[com.google.firebase:firebase-common:19.3.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\c140698248bd770c5ebdb6e6713e1ed9\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+172
+173        <activity
+173-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+174            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+174-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+175            android:exported="false"
+175-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+176-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\2bf143a8a6d9cc9b01c998d0d6ca7843\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+177
+178        <receiver
+178-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:29:9-33:20
+179            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+179-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:30:13-85
+180            android:enabled="true"
+180-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:31:13-35
+181            android:exported="false" >
+181-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:32:13-37
+182        </receiver>
+183
+184        <service
+184-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:35:9-38:40
+185            android:name="com.google.android.gms.measurement.AppMeasurementService"
+185-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:36:13-84
+186            android:enabled="true"
+186-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:37:13-35
+187            android:exported="false" />
+187-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:38:13-37
+188        <service
+188-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:39:9-43:72
+189            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+189-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:40:13-87
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:41:13-35
+191            android:exported="false"
+191-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:42:13-37
+192            android:permission="android.permission.BIND_JOB_SERVICE" />
+192-->[com.google.android.gms:play-services-measurement:17.4.1] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\d55fd39f413f2193532ca39373554e93\play-services-measurement-17.4.1\AndroidManifest.xml:43:13-69
+193
+194        <meta-data
+194-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a08415eb9e6a30da6de7174e2d989437\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+195            android:name="com.google.android.gms.version"
+195-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a08415eb9e6a30da6de7174e2d989437\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+196            android:value="@integer/google_play_services_version" />
+196-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\UMAIR\.gradle\caches\transforms-2\files-2.1\a08415eb9e6a30da6de7174e2d989437\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+197    </application>
+198
+199</manifest>

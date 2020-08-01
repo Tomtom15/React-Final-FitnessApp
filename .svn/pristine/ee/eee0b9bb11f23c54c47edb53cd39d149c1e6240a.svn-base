@@ -1,0 +1,21 @@
+import LoginScreen from './login/LoginScreen';
+import RegisterScreen from './register/RegisterScreen';
+import ForgotPasswordScreen from './forgotpassword/ForgotPasswordScreen';
+import HomeScreen from './home/HomeScreen';
+import EditProfile from './profile/EditProfile';
+import SideMenu from '../components/menu/SideMenu';
+import SplashScreen from './splash/SplashScreen';
+import MapScreen from './profile/MapScreen';
+
+export {
+    
+LoginScreen, 
+RegisterScreen, 
+ForgotPasswordScreen,
+HomeScreen,
+EditProfile,
+SideMenu,
+SplashScreen,
+MapScreen
+  
+}

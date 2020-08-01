@@ -1,0 +1,105 @@
+import React, { Component } from 'react'
+import { Text, View,StyleSheet,TouchableOpacity } from 'react-native'
+import MapView, { Marker,PROVIDER_GOOGLE,Callout } from 'react-native-maps';
+
+import constant from '../../config/constant'
+import Container from '../../components/container/Container'
+import CommonStyles from '../../styles/CommonStyles';
+import colors from '../../theme/colors';
+import Helpers from '../../utils/Helper';
+import { color } from 'react-native-reanimated';
+
+
+
+export default class MapScreen extends Component {
+  constructor(props){
+    super(props)
+    this.state={
+      markers:[{
+        latlng:{ latitude: 37.788, longitude: -122.4324 },
+        title:"Instructor 1",
+        description:"California"
+      },
+      {
+        latlng:{ latitude: 37.78827, longitude: -122.4380 },
+        title:"Instructor 2",
+        description:"California"
+      },
+      {
+        latlng:{ latitude: 37.794, longitude: -122.4350 },
+        title:"Instructor 3",
+        description:"California"
+      },
+      {
+        latlng:{ latitude: 37.795, longitude: -122.431 },
+        title:"Instructor 4",
+        description:"California"
+      }]
+      
+    }
+  }
+    render() {
+        return (
+          <Container
+            hidden={false}
+            navigation={this.props.navigation}
+            title="Select Instructor"
+            isHeader
+            leftMenu
+            isBackEvent
+        >
+            <View style={styles.container}>
+            <MapView
+              style={styles.map}
+              provider={PROVIDER_GOOGLE}
+              region={{
+                latitude: 37.78825,
+                longitude: -122.4324,
+                latitudeDelta: 0.015,
+                longitudeDelta: 0.0121,
+              }}
+
+            >
+            {this.state.markers.map((marker,i) => (
+          <Marker
+            key={i}
+            coordinate={marker.latlng}
+            title={marker.title}
+            description={marker.description}
+          >
+            <Callout tooltip onCalloutPress={()=>this.markerClick(marker)}>
+                                      <TouchableOpacity onPress= {()=>this.markerClick(marker)} >
+                                          <View style={styles.calloutText}>
+                                              <Text style={[CommonStyles.normalText,styles.text]}>{marker.title}{"\n"}{marker.description}</Text>
+                                          </View>
+                                      </TouchableOpacity>
+            </Callout>
+          </Marker>
+            ))}
+            </MapView>
+          </View>
+          </Container>
+        )
+    }
+    markerClick(marker){
+      alert("You have selected "+marker.title)
+    }
+}
+const styles = StyleSheet.create({
+    container: {
+      ...StyleSheet.absoluteFillObject,
+      
+      justifyContent: 'flex-end',
+      alignItems: 'center',
+    },
+    map: {
+      ...StyleSheet.absoluteFillObject,
+    },
+    calloutText:{
+      backgroundColor:colors.white,
+      padding:Helpers.getDynamicSize(10)
+    },
+    text:{
+      color:colors.black
+    }
+   });

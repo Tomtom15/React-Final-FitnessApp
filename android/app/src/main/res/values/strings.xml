@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FitnessApp</string>
+    <string name="facebook_app_id">2343049479337526</string>
+    <string name="fb_login_protocol_scheme">fb2343049479337526</string>
+    <string name="MY_MAP_API_KEY">AIzaSyCish5pBZsEmumX8ldh-0D70cOF-5K8h0w</string>
+
+</resources>

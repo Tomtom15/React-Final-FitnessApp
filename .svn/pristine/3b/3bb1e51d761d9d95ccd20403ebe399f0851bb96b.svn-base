@@ -1,0 +1,33 @@
+import React, { Component } from 'react'
+import { Text, View,TouchableHighlight} from 'react-native'
+import Helpers from '../../utils/Helper'
+import constant from '../../config/constant'
+
+export class HomeScreen extends Component {
+    constructor(props){
+        super(props)
+        this.state={
+            uid: ""
+        }
+    }
+    async componentDidMount(){
+       let uid = await Helpers.getFromPref(constant.PREF_USER_ID,"Not Found")
+       this.setState({
+           uid
+       })
+    }
+    render() {
+        return (
+            <View>
+                <Text> Home Screen </Text>
+                <TouchableHighlight onPress={Helpers.firebaseAuthSignOut()}>
+                    <Text>
+                        {this.state.uid}
+                    </Text>
+                </TouchableHighlight>
+            </View>
+        )
+    }
+}
+
+export default HomeScreen

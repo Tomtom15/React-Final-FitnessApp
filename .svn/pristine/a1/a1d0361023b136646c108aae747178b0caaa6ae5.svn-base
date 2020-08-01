@@ -1,0 +1,78 @@
+import React, { Component } from 'react'
+import { Text, View,TouchableOpacity } from 'react-native'
+import Button from '../../components/button/Button'
+import string from '../../config/string'
+import styles from './styles'
+import CommonStyles from '../../styles/CommonStyles'
+import constant from '../../config/constant'
+import Container from '../../components/container/Container'
+import Indicator from '../../components/indicator/Indicator';
+
+export default class SubscriptionScreen extends Component {
+    render() {
+        return (
+        <Container
+            hidden={false}
+            navigation={this.props.navigation}
+            title="Subscription Plan"
+            isHeader
+            leftMenu
+            isBackEvent
+        >
+        <ScrollView>
+            <Indicator isVisible={this.state.isLoading}/> 
+            <View>
+                <TouchableOpacity>
+                    <Text>
+                       $ 20.00  
+                    </Text>
+                    <Text>
+                       1 Month 
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>
+                       $ 10.00  
+                    </Text>
+                    <Text>
+                       3 Month 
+                    </Text>
+                </TouchableOpacity>
+
+            </View>
+            <View>
+                <TouchableOpacity>
+                    <Text>
+                       $ 50.00  
+                    </Text>
+                    <Text>
+                       6 Month 
+                    </Text>
+                </TouchableOpacity>
+                <TouchableOpacity>
+                    <Text>
+                       $ 100.00  
+                    </Text>
+                    <Text>
+                       1 Year 
+                    </Text>
+                </TouchableOpacity>
+
+            </View>
+            <Button
+                setRef={(ref) => { this.button = ref }}
+                title={string.buy_now}
+                autoCapitalize={false}
+                style={[CommonStyles.normalText,styles.button]}
+                 onButtonClick={() =>
+                            this.buyNow()
+                }
+                /> 
+        </ScrollView>
+        </Container>
+        )
+    }
+    buyNow(){
+
+    }
+}

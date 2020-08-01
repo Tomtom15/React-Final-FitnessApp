@@ -1,0 +1,52 @@
+export default [
+    {label:'meal_plan_1',
+    ingredients:{
+      breakfast:[
+         { quantity:"2",name:"eggs",calories:"156"},
+         { quantity:"20 grams",name:"spinach",calories:"200"},
+         { quantity:"24 grams",name:"mushrooms",calories:"200"},
+         { quantity:"1 tablespoon",name:"Olive oil",calories:"200"},
+
+      ],
+      lunch:[
+          { quantity:"1",name:"wheat pita",calories:"156"},
+          { quantity:"140 grams",name:"canned tuna",calories:"200"},
+          { quantity:"24 grams",name:"celery",calories:"200"},
+          { quantity:"1 tablespoon",name:"crumbled feta cheese",calories:"300"},
+
+       ],
+       dinner:[
+          { quantity:"140 grams",name:"baked salmon",calories:"200"},
+          { quantity:"82 grams",name:"cooked wild rice",calories:"200"},
+          { quantity:"180 grams",name:"roasted asparagus",calories:"200"},
+          { quantity:"2 tablespoon",name:"Olive oil",calories:"200"},
+
+       ]
+    }
+       
+    },
+   { label:'meal_plan_2',
+      ingredients:{
+        breakfast:[
+           { quantity:"10",name:"cashew",calories:"156"},
+           { quantity:"20 grams",name:"oats",calories:"200"},
+           { quantity:"1 tablespoon",name:"Olive oil",calories:"200"},
+
+        ],
+        lunch:[
+            { quantity:"1",name:"wheat pita",calories:"156"},
+            { quantity:"140 grams",name:"green vegetable",calories:"200"},
+            { quantity:"24 grams",name:"cucumber",calories:"200"},
+            { quantity:"1 tablespoon",name:"paneer",calories:"300"},
+ 
+         ],
+         dinner:[
+            { quantity:"140 grams",name:"baked salmon",calories:"200"},
+            { quantity:"82 grams",name:"cooked rice",calories:"200"},
+            { quantity:"180 grams",name:"roasted asparagus",calories:"200"},
+            
+ 
+         ]
+    }
+   }
+]

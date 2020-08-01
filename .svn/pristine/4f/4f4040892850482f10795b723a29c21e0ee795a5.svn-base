@@ -1,0 +1,41 @@
+console.disableYellowBox = true;
+import * as Screens from '../screens';
+import { createStackNavigator } from "react-navigation-stack";
+import { createSwitchNavigator, createAppContainer } from 'react-navigation';
+
+const LoginStack = createStackNavigator({
+    login: {
+        screen: Screens.LoginScreen,
+        navigationOptions: {
+            header: null,
+        }
+    },
+    register: {
+        screen: Screens.RegisterScreen,
+        navigationOptions: {
+            header: null,
+        }
+    },
+    forgotpassword: {
+        screen: Screens.ForgotPasswordScreen,
+        navigationOptions: {
+            header: null
+        }
+    }
+})
+const AppStack = createStackNavigator({
+    home: {
+        screen: Screens.HomeScreen,
+        navigationOptions: {
+            header: null,
+        }
+    }
+})
+const AppNavigator = createSwitchNavigator({
+    Login: LoginStack,
+    appFlow: AppStack,
+});
+
+
+
+export default createAppContainer(AppNavigator);

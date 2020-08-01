@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/FitnessApp.iml" filepath="$PROJECT_DIR$/.idea/modules/FitnessApp.iml" group="FitnessApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="FitnessApp/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/669080703/react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/669080703/react-native-community_async-storage.iml" group="FitnessApp/react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-382542325/react-native-community_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/-382542325/react-native-community_google-signin.iml" group="FitnessApp/react-native-community_google-signin" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-527839428/react-native-community_masked-view.iml" filepath="$PROJECT_DIR$/.idea/modules/-527839428/react-native-community_masked-view.iml" group="FitnessApp/react-native-community_masked-view" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1120874861/react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-1120874861/react-native-fbsdk.iml" group="FitnessApp/react-native-fbsdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1817242862/react-native-firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/-1817242862/react-native-firebase.iml" group="FitnessApp/react-native-firebase" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1215171906/react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/-1215171906/react-native-firebase_app.iml" group="FitnessApp/react-native-firebase_app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/237451883/react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/237451883/react-native-firebase_auth.iml" group="FitnessApp/react-native-firebase_auth" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1079947842/react-native-firebase_database.iml" filepath="$PROJECT_DIR$/.idea/modules/1079947842/react-native-firebase_database.iml" group="FitnessApp/react-native-firebase_database" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1744936677/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1744936677/react-native-gesture-handler.iml" group="FitnessApp/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1124985555/react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-1124985555/react-native-linear-gradient.iml" group="FitnessApp/react-native-linear-gradient" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/786359196/react-native-maps.iml" filepath="$PROJECT_DIR$/.idea/modules/786359196/react-native-maps.iml" group="FitnessApp/react-native-maps" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1986964645/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/1986964645/react-native-reanimated.iml" group="FitnessApp/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1195532604/react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1195532604/react-native-safe-area-context.iml" group="FitnessApp/react-native-safe-area-context" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1771576356/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1771576356/react-native-screens.iml" group="FitnessApp/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1710867611/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/1710867611/react-native-vector-icons.iml" group="FitnessApp/react-native-vector-icons" />
+    </modules>
+  </component>
+</project>
